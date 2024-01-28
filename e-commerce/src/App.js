@@ -1,22 +1,25 @@
 import React from 'react';
 import './App.css';
-import Clothes from './Components/Clothes';
-import Home from './Components/E-com';
-import Watches from './Components/Watches';
-import {BrowserRouter,Routes,Route} from 'react-router-dom';
-import Datatableuser from './Components/Datatable';
+import Navbar from './Components/Navbar';
+import Product from './Components/Product';
+import {BrowserRouter,Routes,Route, } from 'react-router-dom';
+import ProductDetail from './Components/ProductDetail';
+import Searchitem from './Components/Searchitem';
+import Cart from './Components/Cart';
 
 
 function App() {
   return (
    <>
  <div>
-    <BrowserRouter>
-    <Routes>
-      <Route path='/' element={<Home/>}></Route>
-      <Route path='/Clothes' element={<Clothes/>}></Route>
-      <Route path='/Watches' element={<Watches/>}></Route>
-      <Route path='/Datatable' element={<Datatableuser/>}></Route>
+  <BrowserRouter>
+  <Navbar/>
+  <Routes>
+    
+  <Route path='/' element={<Product/>}></Route> 
+  <Route path='/Product/:id' element={<ProductDetail/>}></Route> 
+  <Route path='/search/:term' element={<Searchitem/>}></Route> 
+  <Route path='/cart' element={<Cart/>}></Route> 
     </Routes>
     </BrowserRouter>
     </div>

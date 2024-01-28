@@ -14,7 +14,7 @@ function App() {
     
    
    <BrowserRouter>
-    <Routes>
+    <Routes>nm
     <Route path='/' element={<Portal/>}></Route>
       <Route path='/About' element={<About/>}></Route>
       <Route path='/Education' element={<Education/>}></Route>
