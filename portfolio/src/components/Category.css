@@ -1,0 +1,66 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.body1{
+    background-color:#48bf38;
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    height: 100vh;
+}
+
+
+.container2{
+
+  
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding-top: 5px;
+
+}
+
+.container3{
+    margin-top: 50px;
+    height: 50vh;
+}
+.mb-2{
+    width: 70%;
+    font-weight: 500;
+     color: white;
+
+    
+}
+
+.label2{
+    font-size: 25px;
+}
+
+.int2{
+    height: 50px;
+}
+
+.heading{
+    color:white;
+
+}
+
+.clear{
+    margin-left: 40px;
+    
+}
+
+.deleteBtn{
+    margin-left: 60px;
+}
+.save{
+    margin-left:20px;
+}
+.clear{
+    margin-left:20px;
+}

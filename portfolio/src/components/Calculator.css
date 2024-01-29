@@ -1,0 +1,88 @@
+.App1{
+    text-align: center;
+    display:flex;
+    justify-content: center;
+    align-items:center;
+    width:430px;
+    height:46vh;
+    margin-left: 350px;
+    
+  }
+  .cal1{
+    top: 90px;
+  }
+  
+  h1{
+  position: absolute;
+  top: 0;
+  color: blue;
+  }
+  
+  .container1{
+    width: 350px;
+    height: 445px;
+    margin-top:30px;
+  border: 8px solid black;
+  border-radius: 10px;
+  padding:17px;
+  background-color: rgb(221, 17, 17);
+  
+  }
+  
+  .display1{
+    width: 300px;
+    height:90px;
+    border-radius:9px;
+    padding: 30px;
+    background-color: #ffff;
+    border: 2px;
+    color: rgb(22, 21, 21);
+    text-align: right;
+    font-size:30px;
+    font-weight: 600;
+    letter-spacing: 1px;
+  }
+  
+  .keypad1{
+    display:grid;
+    grid-template-columns: repeat(4, 1fr);
+    grid-auto-rows: minmax(6px,auto);
+    margin: 4px;
+    height:300px;
+    
+  }
+  
+  .button{
+    margin:5px;
+    padding:19px;
+    font-size: 280px;
+    font-weight:600;
+    background-color: #777;
+    border-radius: 5px;
+    color:black;
+  }
+  button:hover{
+    background-color: rgb(66,2,41);
+    color: rgb(119,255,0);
+    transition: 0.2s;
+  }
+  
+  #clear {
+    grid-column:1/3;
+  }
+  
+  #equal {
+    grid-column: 3/5;
+  }
+  
+  .highlight1 {
+    background-color: rgb(243, 134, 10);
+  }
+  .color1{
+    background: linear-gradient(to right,#0fff,#777);
+    border-radius: 8px;
+  box-shadow: 0 0 10px rgb(106, 49, 114);
+  overflow: hidden;
+  padding: 262px;
+  }
+  

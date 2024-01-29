@@ -19,14 +19,15 @@
     background: #081b29;  
     color: #ededed; 
     width: 100vw;
+    
 }
 .header{
     position: fixed;
     top: 0;
     left: 0;
     width:100%;
-    padding: 20px 10%;
-    background: transparent;
+    padding: 20px;
+  
     display: flex;
     justify-content: space-between;
     align-items: center;
@@ -59,11 +60,7 @@
     
     
 }
-.home-content{
-    margin-top: 250px;
-    max-width: 600px;
-    
-}
+
 .home-content h1 {
     font-size: 56px;
     font-weight: 700;
@@ -140,7 +137,7 @@
     bottom: 40px;
     width: 170px;
     display: flex;
-    justify-content: space-between;
+    /* justify-content: space-between; */
     font-family: 'consolas';
     color: var(--clr);
     transition: 0.5s;
@@ -520,8 +517,9 @@ padding: 20px;;
 }
 
 .image12{
-float: right;
-width: 40%;
+display: flex;
+justify-content: right;
+
 align-items: center;
 padding-top: 0px;
 
@@ -533,18 +531,20 @@ padding-top: 0px;
 }
 
 .articles {
-    padding-top: 10%;
+    padding-top: 04%;
     display: flex;
     flex-wrap: wrap;
     margin: 0 auto;
     justify-content: center;
-    max-width: 1200px;
-    gap: 1.5rem;
+    width: 100vh;
+    height: 100vh;
+    gap: 1.1rem;
   }
   
   .articles article {
-    width: 100%;
-    max-width: 420px;
+    width: 300%;
+    
+    max-width: 429px;
     cursor: pointer;
     position: relative;
     display: block;
@@ -574,11 +574,13 @@ padding-top: 0px;
   .article-preview {
     padding: 1.5rem;
     background: white;
+    width:100px;
+    height:100px;
   }
   
   .articles figure {
     width: 100%;
-    height: 19rem;
+    height: 10rem;
     overflow: hidden;
     transition: all 0.4s ease-in-out;
     overflow: hidden;
@@ -589,5 +591,19 @@ padding-top: 0px;
     color: #0798ff;
     font-size: xx-large;
   }
-
+  .Agecal{
+    margin-left: 250px;
+  }
+  .todo{
+    margin-top: 20px;
+    padding-left: 15px;
+  }
+.Ecom{
+    margin-top: 24px;
+    margin-left:252px;
+    
+}
+.calc{
+    
+}
 
